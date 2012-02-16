@@ -1,10 +1,10 @@
-%bcond_without bootstrap
+%bcond_with bootstrap
 %global packname  Biobase
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
 Version:          2.14.0
-Release:          1
+Release:          2
 Summary:          Biobase: Base functions for Bioconductor
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
