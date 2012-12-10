@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          2.14.0
-Release:          2
+Release:          3
 Summary:          Biobase: Base functions for Bioconductor
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
@@ -67,3 +67,15 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/scripts
 %{rlibdir}/%{packname}/UnitTests
 %{rlibdir}/%{packname}/testClass.R
+
+
+%changelog
+* Tue Feb 21 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.14.0-2
++ Revision: 778316
+- Rebuild without bootstrap.
+
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.14.0-1
++ Revision: 775487
+- Import R-Biobase
+- Import R-Biobase
+
