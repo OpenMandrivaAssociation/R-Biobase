@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          2.14.0
-Release:          3
+Release:          4
 Summary:          Biobase: Base functions for Bioconductor
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
