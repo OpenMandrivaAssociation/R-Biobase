@@ -4,22 +4,23 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          2.14.0
-Release:          4
+Version:          2.20.1
+Release:          1
 Summary:          Biobase: Base functions for Bioconductor
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/bioc/html/Biobase.html
-Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.14.0.tar.gz
+Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.20.1.tar.gz
 Requires:         R-utils 
 Requires:         R-methods
 %if %{with bootstrap}
 Requires:         R-tools
 %else 
-Requires:         R-tools R-tkWidgets R-ALL 
+Requires:         R-tools R-tkWidgets R-ALL
 %endif
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-utils
-BuildRequires:    R-methods 
+BuildRequires:    R-methods
+BuildRequires:    R-BiocGenerics
 %if %{with bootstrap}
 BuildRequires:    R-tools
 %else
@@ -78,4 +79,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775487
 - Import R-Biobase
 - Import R-Biobase
+
 
