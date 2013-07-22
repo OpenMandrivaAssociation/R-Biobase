@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          2.20.1
-Release:          1
+Release:          2
 Summary:          Biobase: Base functions for Bioconductor
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
@@ -13,6 +13,7 @@ URL:              http://bioconductor.org/packages/release/bioc/html/Biobase.htm
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.20.1.tar.gz
 Requires:         R-utils 
 Requires:         R-methods
+Requires:         R-BiocGenerics
 %if %{with bootstrap}
 Requires:         R-tools
 %else 
