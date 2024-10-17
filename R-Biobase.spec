@@ -9,7 +9,7 @@ Release:          2
 Summary:          Biobase: Base functions for Bioconductor
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
-URL:              http://bioconductor.org/packages/release/bioc/html/Biobase.html
+URL:              https://bioconductor.org/packages/release/bioc/html/Biobase.html
 Source0:          http://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.20.1.tar.gz
 Requires:         R-utils 
 Requires:         R-methods
